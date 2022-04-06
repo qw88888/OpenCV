@@ -1,0 +1,869 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: 警告： command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_74b6e/fast && /usr/bin/make -f CMakeFiles/cmTC_74b6e.dir/build.make CMakeFiles/cmTC_74b6e.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_74b6e.dir/src.cxx.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"    -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes -o CMakeFiles/cmTC_74b6e.dir/src.cxx.o -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: 警告： command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx:1: 警告： ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_74b6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74b6e.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_74b6e.dir/src.cxx.o  -o cmTC_74b6e 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: 警告： command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b9d6c/fast && /usr/bin/make -f CMakeFiles/cmTC_b9d6c.dir/build.make CMakeFiles/cmTC_b9d6c.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_b9d6c.dir/src.cxx.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"    -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -o CMakeFiles/cmTC_b9d6c.dir/src.cxx.o -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: 警告： command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx:1: 警告： ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_b9d6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9d6c.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_b9d6c.dir/src.cxx.o  -o cmTC_b9d6c 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: 警告： command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1ed2a/fast && /usr/bin/make -f CMakeFiles/cmTC_1ed2a.dir/build.make CMakeFiles/cmTC_1ed2a.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1ed2a.dir/src.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_1ed2a.dir/src.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c
+cc1: 警告： command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c:1: 警告： ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_1ed2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ed2a.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_1ed2a.dir/src.c.o  -o cmTC_1ed2a 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: 警告： command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f10b4/fast && /usr/bin/make -f CMakeFiles/cmTC_f10b4.dir/build.make CMakeFiles/cmTC_f10b4.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f10b4.dir/src.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override -o CMakeFiles/cmTC_f10b4.dir/src.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c
+cc1: 警告： command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c:1: 警告： ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_f10b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f10b4.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_f10b4.dir/src.c.o  -o cmTC_f10b4 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: 警告： command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bddcc/fast && /usr/bin/make -f CMakeFiles/cmTC_bddcc.dir/build.make CMakeFiles/cmTC_bddcc.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_bddcc.dir/src.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_bddcc.dir/src.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c
+cc1: 警告： command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c:1: 警告： ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_bddcc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bddcc.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_bddcc.dir/src.c.o  -o cmTC_bddcc 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: 警告： unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5637d/fast && /usr/bin/make -f CMakeFiles/cmTC_5637d.dir/build.make CMakeFiles/cmTC_5637d.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_5637d.dir/src.cxx.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"    -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_5637d.dir/src.cxx.o -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx:1: 警告： ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: 警告： unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_5637d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5637d.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_5637d.dir/src.cxx.o  -o cmTC_5637d 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: 警告： unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0d041/fast && /usr/bin/make -f CMakeFiles/cmTC_0d041.dir/build.make CMakeFiles/cmTC_0d041.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0d041.dir/src.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_0d041.dir/src.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c:1: 警告： ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: 警告： unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_0d041
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d041.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_0d041.dir/src.c.o  -o cmTC_0d041 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: 警告： command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b6dfc/fast && /usr/bin/make -f CMakeFiles/cmTC_b6dfc.dir/build.make CMakeFiles/cmTC_b6dfc.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b6dfc.dir/src.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_b6dfc.dir/src.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c
+cc1: 警告： command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c:1: 警告： ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_b6dfc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6dfc.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_b6dfc.dir/src.c.o  -o cmTC_b6dfc 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining size of off64_t failed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e2893/fast && /usr/bin/make -f CMakeFiles/cmTC_e2893.dir/build.make CMakeFiles/cmTC_e2893.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e2893.dir/OFF64_T.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e2893.dir/OFF64_T.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+/home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: 错误： ‘off64_t’ undeclared here (not in a function); did you mean ‘off_t’?
+ #define SIZE (sizeof(off64_t))
+                      ^~~~~~~
+/home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/OFF64_T.c:25:12: 附注： in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_e2893.dir/build.make:66：CMakeFiles/cmTC_e2893.dir/OFF64_T.c.o] 错误 1
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_e2893/fast] 错误 2
+
+
+/home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: 警告： unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5afef/fast && /usr/bin/make -f CMakeFiles/cmTC_5afef.dir/build.make CMakeFiles/cmTC_5afef.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5afef.dir/src.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_5afef.dir/src.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c:1: 警告： ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: 警告： unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking C executable cmTC_5afef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5afef.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_5afef.dir/src.c.o  -o cmTC_5afef 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9f17b/fast && /usr/bin/make -f CMakeFiles/cmTC_9f17b.dir/build.make CMakeFiles/cmTC_9f17b.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9f17b.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_9f17b.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: 致命错误： io.h：没有那个文件或目录
+ #include <io.h>
+          ^~~~~~
+编译中断。
+make[1]: *** [CMakeFiles/cmTC_9f17b.dir/build.make:66：CMakeFiles/cmTC_9f17b.dir/CheckIncludeFile.c.o] 错误 1
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_9f17b/fast] 错误 2
+
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e3a9d/fast && /usr/bin/make -f CMakeFiles/cmTC_e3a9d.dir/build.make CMakeFiles/cmTC_e3a9d.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e3a9d.dir/int8.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e3a9d.dir/int8.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/int8.c
+/home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/int8.c:23:22: 错误： ‘INT8’ undeclared here (not in a function); did you mean ‘INT8_C’?
+ #define SIZE (sizeof(INT8))
+                      ^~~~
+/home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/int8.c:25:12: 附注： in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_e3a9d.dir/build.make:66：CMakeFiles/cmTC_e3a9d.dir/int8.c.o] 错误 1
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_e3a9d/fast] 错误 2
+
+
+/home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5eebb/fast && /usr/bin/make -f CMakeFiles/cmTC_5eebb.dir/build.make CMakeFiles/cmTC_5eebb.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5eebb.dir/int16.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_5eebb.dir/int16.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/int16.c
+/home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/int16.c:23:22: 错误： ‘INT16’ undeclared here (not in a function); did you mean ‘INT16_C’?
+ #define SIZE (sizeof(INT16))
+                      ^~~~~
+/home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/int16.c:25:12: 附注： in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_5eebb.dir/build.make:66：CMakeFiles/cmTC_5eebb.dir/int16.c.o] 错误 1
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_5eebb/fast] 错误 2
+
+
+/home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c84f8/fast && /usr/bin/make -f CMakeFiles/cmTC_c84f8.dir/build.make CMakeFiles/cmTC_c84f8.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c84f8.dir/int32.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_c84f8.dir/int32.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/int32.c
+/home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/int32.c:23:22: 错误： ‘INT32’ undeclared here (not in a function); did you mean ‘INT32_C’?
+ #define SIZE (sizeof(INT32))
+                      ^~~~~
+/home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/int32.c:25:12: 附注： in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_c84f8.dir/build.make:66：CMakeFiles/cmTC_c84f8.dir/int32.c.o] 错误 1
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_c84f8/fast] 错误 2
+
+
+/home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function floor exists failed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0d706/fast && /usr/bin/make -f CMakeFiles/cmTC_0d706.dir/build.make CMakeFiles/cmTC_0d706.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0d706.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_0d706.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<命令行>: 警告： conflicting types for built-in function ‘floor’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: 附注： in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_0d706
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d706.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_0d706.dir/CheckFunctionExists.c.o  -o cmTC_0d706 
+/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/ld: CMakeFiles/cmTC_0d706.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `floor'
+collect2: 错误： ld 返回 1
+make[1]: *** [CMakeFiles/cmTC_0d706.dir/build.make:87：cmTC_0d706] 错误 1
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_0d706/fast] 错误 2
+
+
+
+Determining if the function pow exists failed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_576e2/fast && /usr/bin/make -f CMakeFiles/cmTC_576e2.dir/build.make CMakeFiles/cmTC_576e2.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_576e2.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_576e2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<命令行>: 警告： conflicting types for built-in function ‘pow’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: 附注： in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_576e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_576e2.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_576e2.dir/CheckFunctionExists.c.o  -o cmTC_576e2 
+/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/ld: CMakeFiles/cmTC_576e2.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `pow'
+collect2: 错误： ld 返回 1
+make[1]: *** [CMakeFiles/cmTC_576e2.dir/build.make:87：cmTC_576e2] 错误 1
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_576e2/fast] 错误 2
+
+
+
+Determining if the function sqrt exists failed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3ae7f/fast && /usr/bin/make -f CMakeFiles/cmTC_3ae7f.dir/build.make CMakeFiles/cmTC_3ae7f.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3ae7f.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_3ae7f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<命令行>: 警告： conflicting types for built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: 附注： in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_3ae7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ae7f.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_3ae7f.dir/CheckFunctionExists.c.o  -o cmTC_3ae7f 
+/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/ld: CMakeFiles/cmTC_3ae7f.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `sqrt'
+collect2: 错误： ld 返回 1
+make[1]: *** [CMakeFiles/cmTC_3ae7f.dir/build.make:87：cmTC_3ae7f] 错误 1
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_3ae7f/fast] 错误 2
+
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3f036/fast && /usr/bin/make -f CMakeFiles/cmTC_3f036.dir/build.make CMakeFiles/cmTC_3f036.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3f036.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_3f036.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3f036
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f036.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_3f036.dir/CheckFunctionExists.c.o  -o cmTC_3f036 
+/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/ld: CMakeFiles/cmTC_3f036.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `setmode'
+collect2: 错误： ld 返回 1
+make[1]: *** [CMakeFiles/cmTC_3f036.dir/build.make:87：cmTC_3f036] 错误 1
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_3f036/fast] 错误 2
+
+
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: 警告： command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_38476/fast && /usr/bin/make -f CMakeFiles/cmTC_38476.dir/build.make CMakeFiles/cmTC_38476.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_38476.dir/src.cxx.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-missing-prototypes -o CMakeFiles/cmTC_38476.dir/src.cxx.o -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: 警告： command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx:1: 警告： ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_38476
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38476.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_38476.dir/src.cxx.o  -o cmTC_38476 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: 警告： unrecognized command line option ‘-Wno-absolute-value’'
+Compilation failed:
+    source file: '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-absolute-value'
+===== BUILD LOG =====
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_657b5/fast && /usr/bin/make -f CMakeFiles/cmTC_657b5.dir/build.make CMakeFiles/cmTC_657b5.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_657b5.dir/src.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-absolute-value -o CMakeFiles/cmTC_657b5.dir/src.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c:1: 警告： ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: 警告： unrecognized command line option ‘-Wno-absolute-value’
+Linking C executable cmTC_657b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_657b5.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_657b5.dir/src.c.o  -o cmTC_657b5 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dc482/fast && /usr/bin/make -f CMakeFiles/cmTC_dc482.dir/build.make CMakeFiles/cmTC_dc482.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_dc482.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_dc482.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: 致命错误： linux/videodev.h：没有那个文件或目录
+ #include <linux/videodev.h>
+          ^~~~~~~~~~~~~~~~~~
+编译中断。
+make[1]: *** [CMakeFiles/cmTC_dc482.dir/build.make:66：CMakeFiles/cmTC_dc482.dir/CheckIncludeFile.c.o] 错误 1
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_dc482/fast] 错误 2
+
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8898c/fast && /usr/bin/make -f CMakeFiles/cmTC_8898c.dir/build.make CMakeFiles/cmTC_8898c.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8898c.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_8898c.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: 致命错误： sys/videoio.h：没有那个文件或目录
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+编译中断。
+make[1]: *** [CMakeFiles/cmTC_8898c.dir/build.make:66：CMakeFiles/cmTC_8898c.dir/CheckIncludeFile.c.o] 错误 1
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_8898c/fast] 错误 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a657d/fast && /usr/bin/make -f CMakeFiles/cmTC_a657d.dir/build.make CMakeFiles/cmTC_a657d.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a657d.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a657d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a657d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a657d.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_a657d.dir/CheckFunctionExists.c.o  -o cmTC_a657d 
+/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/ld: CMakeFiles/cmTC_a657d.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `sgemm_'
+collect2: 错误： ld 返回 1
+make[1]: *** [CMakeFiles/cmTC_a657d.dir/build.make:87：cmTC_a657d] 错误 1
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_a657d/fast] 错误 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: 警告： unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a0a63/fast && /usr/bin/make -f CMakeFiles/cmTC_a0a63.dir/build.make CMakeFiles/cmTC_a0a63.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_a0a63.dir/src.cxx.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -o CMakeFiles/cmTC_a0a63.dir/src.cxx.o -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx:1: 警告： ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: 警告： unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_a0a63
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0a63.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_a0a63.dir/src.cxx.o  -o cmTC_a0a63 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: 警告： unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_57626/fast && /usr/bin/make -f CMakeFiles/cmTC_57626.dir/build.make CMakeFiles/cmTC_57626.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_57626.dir/src.cxx.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_57626.dir/src.cxx.o -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx:1: 警告： ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: 警告： unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_57626
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57626.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_57626.dir/src.cxx.o  -o cmTC_57626 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: 警告： unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_49d76/fast && /usr/bin/make -f CMakeFiles/cmTC_49d76.dir/build.make CMakeFiles/cmTC_49d76.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_49d76.dir/src.cxx.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-enum-compare-switch -o CMakeFiles/cmTC_49d76.dir/src.cxx.o -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx:1: 警告： ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: 警告： unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_49d76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49d76.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_49d76.dir/src.cxx.o  -o cmTC_49d76 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: 警告： unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c35e5/fast && /usr/bin/make -f CMakeFiles/cmTC_c35e5.dir/build.make CMakeFiles/cmTC_c35e5.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_c35e5.dir/src.cxx.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -o CMakeFiles/cmTC_c35e5.dir/src.cxx.o -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.cxx:1: 警告： ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: 警告： unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_c35e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c35e5.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_c35e5.dir/src.cxx.o  -o cmTC_c35e5 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d990/fast && /usr/bin/make -f CMakeFiles/cmTC_7d990.dir/build.make CMakeFiles/cmTC_7d990.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7d990.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7d990.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: 致命错误： linux/videodev.h：没有那个文件或目录
+ #include <linux/videodev.h>
+          ^~~~~~~~~~~~~~~~~~
+编译中断。
+make[1]: *** [CMakeFiles/cmTC_7d990.dir/build.make:66：CMakeFiles/cmTC_7d990.dir/CheckIncludeFile.c.o] 错误 1
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_7d990/fast] 错误 2
+
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_de88d/fast && /usr/bin/make -f CMakeFiles/cmTC_de88d.dir/build.make CMakeFiles/cmTC_de88d.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_de88d.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_de88d.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: 致命错误： sys/videoio.h：没有那个文件或目录
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+编译中断。
+make[1]: *** [CMakeFiles/cmTC_de88d.dir/build.make:66：CMakeFiles/cmTC_de88d.dir/CheckIncludeFile.c.o] 错误 1
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_de88d/fast] 错误 2
+
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_528fd/fast && /usr/bin/make -f CMakeFiles/cmTC_528fd.dir/build.make CMakeFiles/cmTC_528fd.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_528fd.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_528fd.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: 致命错误： linux/videodev.h：没有那个文件或目录
+ #include <linux/videodev.h>
+          ^~~~~~~~~~~~~~~~~~
+编译中断。
+make[1]: *** [CMakeFiles/cmTC_528fd.dir/build.make:66：CMakeFiles/cmTC_528fd.dir/CheckIncludeFile.c.o] 错误 1
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_528fd/fast] 错误 2
+
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2c83a/fast && /usr/bin/make -f CMakeFiles/cmTC_2c83a.dir/build.make CMakeFiles/cmTC_2c83a.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2c83a.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_2c83a.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: 致命错误： sys/videoio.h：没有那个文件或目录
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+编译中断。
+make[1]: *** [CMakeFiles/cmTC_2c83a.dir/build.make:66：CMakeFiles/cmTC_2c83a.dir/CheckIncludeFile.c.o] 错误 1
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_2c83a/fast] 错误 2
+
+
+

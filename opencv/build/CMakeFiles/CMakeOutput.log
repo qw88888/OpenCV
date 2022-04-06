@@ -1,0 +1,1318 @@
+The target system is: Linux -  - 
+The host system is: Linux - 5.13.0-39-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/qw/opencv-3.4.15/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/qw/opencv-3.4.15/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_988ca/fast && /usr/bin/make -f CMakeFiles/cmTC_988ca.dir/build.make CMakeFiles/cmTC_988ca.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_988ca.dir/testCXXCompiler.cxx.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"    -fPIE   -o CMakeFiles/cmTC_988ca.dir/testCXXCompiler.cxx.o -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_988ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_988ca.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"       -rdynamic CMakeFiles/cmTC_988ca.dir/testCXXCompiler.cxx.o  -o cmTC_988ca 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ba0c6/fast && /usr/bin/make -f CMakeFiles/cmTC_ba0c6.dir/build.make CMakeFiles/cmTC_ba0c6.dir/build
+make[1]: Entering directory '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"    -fPIE   -v -o CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
+Target: arm-linux-gnueabihf
+Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)'
+Thread model: posix
+gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/cc1plus -quiet -v -iprefix /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/ -isysroot /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -marm -march=armv7-a+simd -auxbase-strip CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o -version -fPIE -o /tmp/ccqDCpxf.s
+GNU C++14 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) version 8.3.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 4.8.1, GMP version 4.3.2, MPFR version 3.1.6, MPC version 0.8.2, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0"
+ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf"
+ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/backward"
+ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/include"
+ignoring nonexistent directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/local/include"
+ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed"
+ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/backward
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include
+End of search list.
+GNU C++14 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) version 8.3.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 4.8.1, GMP version 4.3.2, MPFR version 3.1.6, MPC version 0.8.2, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8a85cb0d2d2ff66df776d19db4ea2416
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccqDCpxf.s
+GNU assembler version 2.32.0 (arm-linux-gnueabihf) using BFD version (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 2.32.0.20190321
+COMPILER_PATH=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+Linking CXX executable cmTC_ba0c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba0c6.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"      -v -rdynamic CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ba0c6 
+Using built-in specs.
+COLLECT_GCC=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
+COLLECT_LTO_WRAPPER=/home/qw/1126\ \ \ 2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)'
+Thread model: posix
+gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 
+COMPILER_PATH=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ba0c6' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/collect2 -plugin /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXHEFHK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_ba0c6 /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtbegin.o -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0 -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtend.o /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ba0c6' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+make[1]: Leaving directory '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0]
+    add: [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf]
+    add: [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/backward]
+    add: [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include]
+    add: [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed]
+    add: [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include]
+    add: [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include]
+  end of search list found
+  collapse include dir [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0] ==> [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/8.3.0]
+  collapse include dir [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf] ==> [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf]
+  collapse include dir [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/backward] ==> [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/8.3.0/backward]
+  collapse include dir [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include] ==> [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0/include]
+  collapse include dir [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed] ==> [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed]
+  collapse include dir [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include] ==> [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include]
+  collapse include dir [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include] ==> [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include]
+  implicit include dirs: [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/8.3.0;/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf;/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/8.3.0/backward;/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0/include;/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed;/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include;/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_ba0c6/fast && /usr/bin/make -f CMakeFiles/cmTC_ba0c6.dir/build.make CMakeFiles/cmTC_ba0c6.dir/build]
+  ignore line: [make[1]: Entering directory '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: ["/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"    -fPIE   -v -o CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/cc1plus -quiet -v -iprefix /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/ -isysroot /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -marm -march=armv7-a+simd -auxbase-strip CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o -version -fPIE -o /tmp/ccqDCpxf.s]
+  ignore line: [GNU C++14 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) version 8.3.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.1  GMP version 4.3.2  MPFR version 3.1.6  MPC version 0.8.2  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0"]
+  ignore line: [ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf"]
+  ignore line: [ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/backward"]
+  ignore line: [ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0]
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf]
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/backward]
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include]
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed]
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include]
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) version 8.3.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.1  GMP version 4.3.2  MPFR version 3.1.6  MPC version 0.8.2  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 8a85cb0d2d2ff66df776d19db4ea2416]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccqDCpxf.s]
+  ignore line: [GNU assembler version 2.32.0 (arm-linux-gnueabihf) using BFD version (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 2.32.0.20190321]
+  ignore line: [COMPILER_PATH=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  ignore line: [Linking CXX executable cmTC_ba0c6]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba0c6.dir/link.txt --verbose=1]
+  ignore line: ["/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"      -v -rdynamic CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ba0c6 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/qw/1126\ \ \ 2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) ]
+  ignore line: [COMPILER_PATH=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ba0c6' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/collect2 -plugin /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXHEFHK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_ba0c6 /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtbegin.o -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0 -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_ba0c6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtend.o /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ba0c6' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  ignore line: [make[1]: Leaving directory '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48233/fast && /usr/bin/make -f CMakeFiles/cmTC_48233.dir/build.make CMakeFiles/cmTC_48233.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_48233.dir/testCCompiler.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fPIE   -o CMakeFiles/cmTC_48233.dir/testCCompiler.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_48233
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48233.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"      -rdynamic CMakeFiles/cmTC_48233.dir/testCCompiler.c.o  -o cmTC_48233 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ad9fc/fast && /usr/bin/make -f CMakeFiles/cmTC_ad9fc.dir/build.make CMakeFiles/cmTC_ad9fc.dir/build
+make[1]: Entering directory '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fPIE   -v -o CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+Target: arm-linux-gnueabihf
+Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)'
+Thread model: posix
+gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/cc1 -quiet -v -iprefix /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/ -isysroot /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -marm -march=armv7-a+simd -auxbase-strip CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o -version -fPIE -o /tmp/ccuj0w1n.s
+GNU C17 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) version 8.3.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 4.8.1, GMP version 4.3.2, MPFR version 3.1.6, MPC version 0.8.2, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/include"
+ignoring nonexistent directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/local/include"
+ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed"
+ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include
+End of search list.
+GNU C17 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) version 8.3.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 4.8.1, GMP version 4.3.2, MPFR version 3.1.6, MPC version 0.8.2, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7f73d02f5a647c367ef9cbd0ddc0248c
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o /tmp/ccuj0w1n.s
+GNU assembler version 2.32.0 (arm-linux-gnueabihf) using BFD version (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 2.32.0.20190321
+COMPILER_PATH=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+Linking C executable cmTC_ad9fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad9fc.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"     -v -rdynamic CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o  -o cmTC_ad9fc 
+Using built-in specs.
+COLLECT_GCC=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/home/qw/1126\ \ \ 2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)'
+Thread model: posix
+gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 
+COMPILER_PATH=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ad9fc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/collect2 -plugin /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLM9TTQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_ad9fc /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtbegin.o -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0 -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtend.o /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ad9fc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+make[1]: Leaving directory '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include]
+    add: [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed]
+    add: [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include]
+    add: [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include]
+  end of search list found
+  collapse include dir [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include] ==> [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0/include]
+  collapse include dir [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed] ==> [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed]
+  collapse include dir [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include] ==> [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include]
+  collapse include dir [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include] ==> [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include]
+  implicit include dirs: [/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0/include;/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed;/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include;/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_ad9fc/fast && /usr/bin/make -f CMakeFiles/cmTC_ad9fc.dir/build.make CMakeFiles/cmTC_ad9fc.dir/build]
+  ignore line: [make[1]: Entering directory '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o]
+  ignore line: ["/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fPIE   -v -o CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/cc1 -quiet -v -iprefix /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/ -isysroot /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -marm -march=armv7-a+simd -auxbase-strip CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o -version -fPIE -o /tmp/ccuj0w1n.s]
+  ignore line: [GNU C17 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) version 8.3.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.1  GMP version 4.3.2  MPFR version 3.1.6  MPC version 0.8.2  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include]
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed]
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include]
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) version 8.3.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.1  GMP version 4.3.2  MPFR version 3.1.6  MPC version 0.8.2  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 7f73d02f5a647c367ef9cbd0ddc0248c]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o /tmp/ccuj0w1n.s]
+  ignore line: [GNU assembler version 2.32.0 (arm-linux-gnueabihf) using BFD version (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 2.32.0.20190321]
+  ignore line: [COMPILER_PATH=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  ignore line: [Linking C executable cmTC_ad9fc]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad9fc.dir/link.txt --verbose=1]
+  ignore line: ["/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"     -v -rdynamic CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o  -o cmTC_ad9fc ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/qw/1126\ \ \ 2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) ]
+  ignore line: [COMPILER_PATH=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ad9fc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  ignore line: [ /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/collect2 -plugin /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLM9TTQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_ad9fc /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtbegin.o -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0 -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_ad9fc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtend.o /home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ad9fc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  ignore line: [make[1]: Leaving directory '/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_712d8/fast && /usr/bin/make -f CMakeFiles/cmTC_712d8.dir/build.make CMakeFiles/cmTC_712d8.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_712d8.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_712d8.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_712d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_712d8.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_712d8.dir/CheckIncludeFile.c.o  -o cmTC_712d8 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_533f6/fast && /usr/bin/make -f CMakeFiles/cmTC_533f6.dir/build.make CMakeFiles/cmTC_533f6.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_533f6.dir/CheckSymbolExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_533f6.dir/CheckSymbolExists.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_533f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_533f6.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_533f6.dir/CheckSymbolExists.c.o  -o cmTC_533f6 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+File /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09129/fast && /usr/bin/make -f CMakeFiles/cmTC_09129.dir/build.make CMakeFiles/cmTC_09129.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_09129.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_09129.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_09129
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09129.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_09129.dir/CheckIncludeFile.c.o  -o cmTC_09129 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the memalign exist passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f342c/fast && /usr/bin/make -f CMakeFiles/cmTC_f342c.dir/build.make CMakeFiles/cmTC_f342c.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f342c.dir/CheckSymbolExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f342c.dir/CheckSymbolExists.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f342c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f342c.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_f342c.dir/CheckSymbolExists.c.o  -o cmTC_f342c 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+File /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a71b2/fast && /usr/bin/make -f CMakeFiles/cmTC_a71b2.dir/build.make CMakeFiles/cmTC_a71b2.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a71b2.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a71b2.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a71b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a71b2.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_a71b2.dir/CheckIncludeFile.c.o  -o cmTC_a71b2 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d1a5/fast && /usr/bin/make -f CMakeFiles/cmTC_7d1a5.dir/build.make CMakeFiles/cmTC_7d1a5.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7d1a5.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7d1a5.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7d1a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d1a5.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_7d1a5.dir/CheckIncludeFile.c.o  -o cmTC_7d1a5 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d619d/fast && /usr/bin/make -f CMakeFiles/cmTC_d619d.dir/build.make CMakeFiles/cmTC_d619d.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d619d.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d619d.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d619d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d619d.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_d619d.dir/CheckIncludeFile.c.o  -o cmTC_d619d 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_553f8/fast && /usr/bin/make -f CMakeFiles/cmTC_553f8.dir/build.make CMakeFiles/cmTC_553f8.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_553f8.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_553f8.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_553f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_553f8.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_553f8.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_553f8 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1d91d/fast && /usr/bin/make -f CMakeFiles/cmTC_1d91d.dir/build.make CMakeFiles/cmTC_1d91d.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1d91d.dir/TestEndianess.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_1d91d.dir/TestEndianess.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_1d91d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d91d.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_1d91d.dir/TestEndianess.c.o  -o cmTC_1d91d 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4d54e/fast && /usr/bin/make -f CMakeFiles/cmTC_4d54e.dir/build.make CMakeFiles/cmTC_4d54e.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4d54e.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_4d54e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4d54e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d54e.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_4d54e.dir/CheckFunctionExists.c.o  -o cmTC_4d54e 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_16d26/fast && /usr/bin/make -f CMakeFiles/cmTC_16d26.dir/build.make CMakeFiles/cmTC_16d26.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_16d26.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_16d26.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_16d26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16d26.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_16d26.dir/CheckIncludeFile.c.o  -o cmTC_16d26 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d12ce/fast && /usr/bin/make -f CMakeFiles/cmTC_d12ce.dir/build.make CMakeFiles/cmTC_d12ce.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d12ce.dir/SIZEOF_SIZE_T.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d12ce.dir/SIZEOF_SIZE_T.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_d12ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d12ce.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_d12ce.dir/SIZEOF_SIZE_T.c.o  -o cmTC_d12ce 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_43f55/fast && /usr/bin/make -f CMakeFiles/cmTC_43f55.dir/build.make CMakeFiles/cmTC_43f55.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_43f55.dir/SIZEOF_UNSIGNED_LONG.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_43f55.dir/SIZEOF_UNSIGNED_LONG.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTC_43f55
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43f55.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_43f55.dir/SIZEOF_UNSIGNED_LONG.c.o  -o cmTC_43f55 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZL succeeded with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_81c0b/fast && /usr/bin/make -f CMakeFiles/cmTC_81c0b.dir/build.make CMakeFiles/cmTC_81c0b.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_81c0b.dir/src.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough -DHAVE_BUILTIN_CTZL -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_81c0b.dir/src.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_81c0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81c0b.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough -DHAVE_BUILTIN_CTZL -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_81c0b.dir/src.c.o  -o cmTC_81c0b 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main(int argc, char **argv) { unsigned long a = argc;  return __builtin_ctzl(a); }
+Determining if files locale.h exist passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e17f7/fast && /usr/bin/make -f CMakeFiles/cmTC_e17f7.dir/build.make CMakeFiles/cmTC_e17f7.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e17f7.dir/HAVE_LOCALE_H.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e17f7.dir/HAVE_LOCALE_H.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckIncludeFiles/HAVE_LOCALE_H.c
+Linking C executable cmTC_e17f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e17f7.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_e17f7.dir/HAVE_LOCALE_H.c.o  -o cmTC_e17f7 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f70cd/fast && /usr/bin/make -f CMakeFiles/cmTC_f70cd.dir/build.make CMakeFiles/cmTC_f70cd.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f70cd.dir/HAVE_STDLIB_H.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f70cd.dir/HAVE_STDLIB_H.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
+Linking C executable cmTC_f70cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f70cd.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_f70cd.dir/HAVE_STDLIB_H.c.o  -o cmTC_f70cd 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_091ce/fast && /usr/bin/make -f CMakeFiles/cmTC_091ce.dir/build.make CMakeFiles/cmTC_091ce.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_091ce.dir/NEED_SYS_TYPES_H.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_091ce.dir/NEED_SYS_TYPES_H.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckIncludeFiles/NEED_SYS_TYPES_H.c
+Linking C executable cmTC_091ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_091ce.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_091ce.dir/NEED_SYS_TYPES_H.c.o  -o cmTC_091ce 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_32b49/fast && /usr/bin/make -f CMakeFiles/cmTC_32b49.dir/build.make CMakeFiles/cmTC_32b49.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_32b49.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_32b49.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_32b49
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32b49.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_32b49.dir/CheckIncludeFile.c.o  -o cmTC_32b49 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ff6a0/fast && /usr/bin/make -f CMakeFiles/cmTC_ff6a0.dir/build.make CMakeFiles/cmTC_ff6a0.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ff6a0.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_ff6a0.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ff6a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff6a0.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_ff6a0.dir/CheckIncludeFile.c.o  -o cmTC_ff6a0 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_91e24/fast && /usr/bin/make -f CMakeFiles/cmTC_91e24.dir/build.make CMakeFiles/cmTC_91e24.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_91e24.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_91e24.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_91e24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91e24.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_91e24.dir/CheckIncludeFile.c.o  -o cmTC_91e24 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0b989/fast && /usr/bin/make -f CMakeFiles/cmTC_0b989.dir/build.make CMakeFiles/cmTC_0b989.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0b989.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_0b989.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0b989
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b989.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_0b989.dir/CheckIncludeFile.c.o  -o cmTC_0b989 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_440a7/fast && /usr/bin/make -f CMakeFiles/cmTC_440a7.dir/build.make CMakeFiles/cmTC_440a7.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_440a7.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_440a7.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_440a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_440a7.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_440a7.dir/CheckIncludeFile.c.o  -o cmTC_440a7 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d9f4c/fast && /usr/bin/make -f CMakeFiles/cmTC_d9f4c.dir/build.make CMakeFiles/cmTC_d9f4c.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d9f4c.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d9f4c.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d9f4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9f4c.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_d9f4c.dir/CheckIncludeFile.c.o  -o cmTC_d9f4c 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_87429/fast && /usr/bin/make -f CMakeFiles/cmTC_87429.dir/build.make CMakeFiles/cmTC_87429.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_87429.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_87429.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_87429
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87429.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_87429.dir/CheckIncludeFile.c.o  -o cmTC_87429 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_db575/fast && /usr/bin/make -f CMakeFiles/cmTC_db575.dir/build.make CMakeFiles/cmTC_db575.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_db575.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_db575.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_db575
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db575.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_db575.dir/CheckIncludeFile.c.o  -o cmTC_db575 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_193ba/fast && /usr/bin/make -f CMakeFiles/cmTC_193ba.dir/build.make CMakeFiles/cmTC_193ba.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_193ba.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_193ba.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_193ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_193ba.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_193ba.dir/CheckIncludeFile.c.o  -o cmTC_193ba 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_02d13/fast && /usr/bin/make -f CMakeFiles/cmTC_02d13.dir/build.make CMakeFiles/cmTC_02d13.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_02d13.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_02d13.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_02d13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02d13.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_02d13.dir/CheckIncludeFile.c.o  -o cmTC_02d13 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fa248/fast && /usr/bin/make -f CMakeFiles/cmTC_fa248.dir/build.make CMakeFiles/cmTC_fa248.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_fa248.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_fa248.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fa248
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa248.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_fa248.dir/CheckIncludeFile.c.o  -o cmTC_fa248 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test C_HAS_inline succeeded with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_27ad5/fast && /usr/bin/make -f CMakeFiles/cmTC_27ad5.dir/build.make CMakeFiles/cmTC_27ad5.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_27ad5.dir/src.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -Dinline=inline  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DC_HAS_inline -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_27ad5.dir/src.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c:3:29: 警告： 函数声明不是一个原型 [-Wstrict-prototypes]
+         static inline foo_t static_foo() {return 0;}
+                             ^~~~~~~~~~
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c:4:15: 警告： 函数声明不是一个原型 [-Wstrict-prototypes]
+         foo_t foo(){return 0;}
+               ^~~
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c: 在函数‘main’中:
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c:5:22: 警告： unused parameter ‘argc’ [-Wunused-parameter]
+         int main(int argc, char *argv[]) {return 0;}
+                  ~~~~^~~~
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c:5:34: 警告： unused parameter ‘argv’ [-Wunused-parameter]
+         int main(int argc, char *argv[]) {return 0;}
+                            ~~~~~~^~~~~~
+Linking C executable cmTC_27ad5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27ad5.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DC_HAS_inline -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_27ad5.dir/src.c.o  -o cmTC_27ad5 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+Determining size of signed short passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ac782/fast && /usr/bin/make -f CMakeFiles/cmTC_ac782.dir/build.make CMakeFiles/cmTC_ac782.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ac782.dir/SIZEOF_SIGNED_SHORT.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_ac782.dir/SIZEOF_SIGNED_SHORT.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_SHORT.c
+Linking C executable cmTC_ac782
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac782.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_ac782.dir/SIZEOF_SIGNED_SHORT.c.o  -o cmTC_ac782 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bccd6/fast && /usr/bin/make -f CMakeFiles/cmTC_bccd6.dir/build.make CMakeFiles/cmTC_bccd6.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_bccd6.dir/SIZEOF_UNSIGNED_SHORT.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_bccd6.dir/SIZEOF_UNSIGNED_SHORT.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_bccd6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bccd6.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_bccd6.dir/SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_bccd6 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of signed int passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_620e4/fast && /usr/bin/make -f CMakeFiles/cmTC_620e4.dir/build.make CMakeFiles/cmTC_620e4.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_620e4.dir/SIZEOF_SIGNED_INT.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_620e4.dir/SIZEOF_SIGNED_INT.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_INT.c
+Linking C executable cmTC_620e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_620e4.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_620e4.dir/SIZEOF_SIGNED_INT.c.o  -o cmTC_620e4 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_87b9c/fast && /usr/bin/make -f CMakeFiles/cmTC_87b9c.dir/build.make CMakeFiles/cmTC_87b9c.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_87b9c.dir/SIZEOF_UNSIGNED_INT.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_87b9c.dir/SIZEOF_UNSIGNED_INT.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_INT.c
+Linking C executable cmTC_87b9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87b9c.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_87b9c.dir/SIZEOF_UNSIGNED_INT.c.o  -o cmTC_87b9c 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of signed long passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fa88f/fast && /usr/bin/make -f CMakeFiles/cmTC_fa88f.dir/build.make CMakeFiles/cmTC_fa88f.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_fa88f.dir/SIZEOF_SIGNED_LONG.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_fa88f.dir/SIZEOF_SIGNED_LONG.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG.c
+Linking C executable cmTC_fa88f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa88f.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_fa88f.dir/SIZEOF_SIGNED_LONG.c.o  -o cmTC_fa88f 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of signed long long passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_15aa9/fast && /usr/bin/make -f CMakeFiles/cmTC_15aa9.dir/build.make CMakeFiles/cmTC_15aa9.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_15aa9.dir/SIZEOF_SIGNED_LONG_LONG.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_15aa9.dir/SIZEOF_SIGNED_LONG_LONG.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG_LONG.c
+Linking C executable cmTC_15aa9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15aa9.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_15aa9.dir/SIZEOF_SIGNED_LONG_LONG.c.o  -o cmTC_15aa9 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d576b/fast && /usr/bin/make -f CMakeFiles/cmTC_d576b.dir/build.make CMakeFiles/cmTC_d576b.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d576b.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d576b.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG_LONG.c
+Linking C executable cmTC_d576b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d576b.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_d576b.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o  -o cmTC_d576b 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of unsigned char * passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2527e/fast && /usr/bin/make -f CMakeFiles/cmTC_2527e.dir/build.make CMakeFiles/cmTC_2527e.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2527e.dir/SIZEOF_UNSIGNED_CHAR_P.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_2527e.dir/SIZEOF_UNSIGNED_CHAR_P.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_CHAR_P.c
+Linking C executable cmTC_2527e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2527e.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_2527e.dir/SIZEOF_UNSIGNED_CHAR_P.c.o  -o cmTC_2527e 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dceda/fast && /usr/bin/make -f CMakeFiles/cmTC_dceda.dir/build.make CMakeFiles/cmTC_dceda.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_dceda.dir/SIZEOF_PTRDIFF_T.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_dceda.dir/SIZEOF_PTRDIFF_T.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CheckTypeSize/SIZEOF_PTRDIFF_T.c
+Linking C executable cmTC_dceda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dceda.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_dceda.dir/SIZEOF_PTRDIFF_T.c.o  -o cmTC_dceda 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function isascii exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5cd5b/fast && /usr/bin/make -f CMakeFiles/cmTC_5cd5b.dir/build.make CMakeFiles/cmTC_5cd5b.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5cd5b.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=isascii -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_5cd5b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<命令行>: 警告： conflicting types for built-in function ‘isascii’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: 附注： in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_5cd5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cd5b.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=isascii -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_5cd5b.dir/CheckFunctionExists.c.o  -o cmTC_5cd5b 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5d532/fast && /usr/bin/make -f CMakeFiles/cmTC_5d532.dir/build.make CMakeFiles/cmTC_5d532.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5d532.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memset -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_5d532.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<命令行>: 警告： conflicting types for built-in function ‘memset’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: 附注： in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_5d532
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d532.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memset -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_5d532.dir/CheckFunctionExists.c.o  -o cmTC_5d532 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4b09a/fast && /usr/bin/make -f CMakeFiles/cmTC_4b09a.dir/build.make CMakeFiles/cmTC_4b09a.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4b09a.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_4b09a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4b09a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b09a.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_4b09a.dir/CheckFunctionExists.c.o  -o cmTC_4b09a 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c485c/fast && /usr/bin/make -f CMakeFiles/cmTC_c485c.dir/build.make CMakeFiles/cmTC_c485c.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c485c.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=getopt -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_c485c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c485c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c485c.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=getopt -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_c485c.dir/CheckFunctionExists.c.o  -o cmTC_c485c 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d4fc2/fast && /usr/bin/make -f CMakeFiles/cmTC_d4fc2.dir/build.make CMakeFiles/cmTC_d4fc2.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d4fc2.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memmove -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d4fc2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<命令行>: 警告： conflicting types for built-in function ‘memmove’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: 附注： in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_d4fc2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4fc2.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memmove -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_d4fc2.dir/CheckFunctionExists.c.o  -o cmTC_d4fc2 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1f95c/fast && /usr/bin/make -f CMakeFiles/cmTC_1f95c.dir/build.make CMakeFiles/cmTC_1f95c.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1f95c.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strcasecmp -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_1f95c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<命令行>: 警告： conflicting types for built-in function ‘strcasecmp’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: 附注： in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_1f95c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f95c.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strcasecmp -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_1f95c.dir/CheckFunctionExists.c.o  -o cmTC_1f95c 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b0105/fast && /usr/bin/make -f CMakeFiles/cmTC_b0105.dir/build.make CMakeFiles/cmTC_b0105.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b0105.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strchr -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_b0105.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<命令行>: 警告： conflicting types for built-in function ‘strchr’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: 附注： in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_b0105
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0105.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strchr -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_b0105.dir/CheckFunctionExists.c.o  -o cmTC_b0105 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4d7c0/fast && /usr/bin/make -f CMakeFiles/cmTC_4d7c0.dir/build.make CMakeFiles/cmTC_4d7c0.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4d7c0.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strrchr -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_4d7c0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<命令行>: 警告： conflicting types for built-in function ‘strrchr’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: 附注： in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_4d7c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d7c0.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strrchr -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_4d7c0.dir/CheckFunctionExists.c.o  -o cmTC_4d7c0 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c57e8/fast && /usr/bin/make -f CMakeFiles/cmTC_c57e8.dir/build.make CMakeFiles/cmTC_c57e8.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c57e8.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strstr -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_c57e8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<命令行>: 警告： conflicting types for built-in function ‘strstr’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: 附注： in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_c57e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c57e8.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strstr -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_c57e8.dir/CheckFunctionExists.c.o  -o cmTC_c57e8 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9c0d5/fast && /usr/bin/make -f CMakeFiles/cmTC_9c0d5.dir/build.make CMakeFiles/cmTC_9c0d5.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9c0d5.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_9c0d5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9c0d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c0d5.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_9c0d5.dir/CheckFunctionExists.c.o  -o cmTC_9c0d5 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ac07f/fast && /usr/bin/make -f CMakeFiles/cmTC_ac07f.dir/build.make CMakeFiles/cmTC_ac07f.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ac07f.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_ac07f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ac07f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac07f.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_ac07f.dir/CheckFunctionExists.c.o  -o cmTC_ac07f 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_77cdf/fast && /usr/bin/make -f CMakeFiles/cmTC_77cdf.dir/build.make CMakeFiles/cmTC_77cdf.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_77cdf.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtoull -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_77cdf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_77cdf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77cdf.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtoull -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_77cdf.dir/CheckFunctionExists.c.o  -o cmTC_77cdf 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function lfind exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e3e53/fast && /usr/bin/make -f CMakeFiles/cmTC_e3e53.dir/build.make CMakeFiles/cmTC_e3e53.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e3e53.dir/CheckFunctionExists.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=lfind -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e3e53.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e3e53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3e53.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=lfind -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_e3e53.dir/CheckFunctionExists.c.o  -o cmTC_e3e53 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test HAVE_SNPRINTF succeeded with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_08fbc/fast && /usr/bin/make -f CMakeFiles/cmTC_08fbc.dir/build.make CMakeFiles/cmTC_08fbc.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_08fbc.dir/src.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DHAVE_SNPRINTF -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_08fbc.dir/src.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_08fbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08fbc.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DHAVE_SNPRINTF -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_08fbc.dir/src.c.o  -o cmTC_08fbc 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+#include <stdio.h>
+int main(void) {
+  char buf[10];
+  snprintf(buf, 10, "Test %d", 1);
+  return 0;
+}
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b04ed/fast && /usr/bin/make -f CMakeFiles/cmTC_b04ed.dir/build.make CMakeFiles/cmTC_b04ed.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b04ed.dir/TestEndianess.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_b04ed.dir/TestEndianess.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_b04ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b04ed.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_b04ed.dir/TestEndianess.c.o  -o cmTC_b04ed 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3c83b/fast && /usr/bin/make -f CMakeFiles/cmTC_3c83b.dir/build.make CMakeFiles/cmTC_3c83b.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3c83b.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_3c83b.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3c83b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c83b.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_3c83b.dir/CheckIncludeFile.c.o  -o cmTC_3c83b 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_61de0/fast && /usr/bin/make -f CMakeFiles/cmTC_61de0.dir/build.make CMakeFiles/cmTC_61de0.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_61de0.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_61de0.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_61de0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61de0.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_61de0.dir/CheckIncludeFile.c.o  -o cmTC_61de0 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6a595/fast && /usr/bin/make -f CMakeFiles/cmTC_6a595.dir/build.make CMakeFiles/cmTC_6a595.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6a595.dir/src.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCMAKE_HAVE_LIBC_PTHREAD -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_6a595.dir/src.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c
+/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/src.c:3:7: 警告： ‘test_func’先前没有原型 [-Wmissing-prototypes]
+ void* test_func(void* data)
+       ^~~~~~~~~
+Linking C executable cmTC_6a595
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a595.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCMAKE_HAVE_LIBC_PTHREAD -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_6a595.dir/src.c.o  -o cmTC_6a595 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_169c4/fast && /usr/bin/make -f CMakeFiles/cmTC_169c4.dir/build.make CMakeFiles/cmTC_169c4.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_169c4.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_169c4.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_169c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_169c4.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_169c4.dir/CheckIncludeFile.c.o  -o cmTC_169c4 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab81a/fast && /usr/bin/make -f CMakeFiles/cmTC_ab81a.dir/build.make CMakeFiles/cmTC_ab81a.dir/build
+make[1]: 进入目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ab81a.dir/CheckIncludeFile.c.o
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_ab81a.dir/CheckIncludeFile.c.o   -c /home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ab81a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab81a.dir/link.txt --verbose=1
+"/home/qw/1126   2/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_ab81a.dir/CheckIncludeFile.c.o  -o cmTC_ab81a 
+make[1]: 离开目录“/home/qw/opencv-3.4.15/build/CMakeFiles/CMakeTmp”
+
+
+
